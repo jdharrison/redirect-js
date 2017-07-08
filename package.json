@@ -1,0 +1,15 @@
+{
+  "name": "redirect",
+  "version": "1.0.0",
+  "description": "Redirect incoming url.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "scripts": {
+    "start": "nodejs app.js & > output.log",
+    "stop": "killall nodejs"
+  },
+  "author": "Jacob Harrison",
+  "license": "ISC"
+}
